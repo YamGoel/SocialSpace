@@ -1,0 +1,45 @@
+html,
+body {
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+  background-image: url('https://cdn.pixabay.com/photo/2018/08/14/13/23/ocean-3605547_1280.jpg');
+  margin: 0;
+}
+
+#navbar{
+  background-color: black;
+}
+
+#postForm, #groupForm{
+  color: red;
+}
+
+.navbar-brand {
+  font-size: 30px;
+}
+
+h1, h2, h3, h4, h5, a{
+  color: white;
+}
+
+p{
+  color: red;
+}
+
+.head{
+  color: white;
+  font-family: cursive;
+}
+
+#note {
+  position: absolute;
+  color: rgba(249,241,204,1);
+  left: 0;
+  right: 0;
+  bottom: 20px;
+  margin: auto;
+  text-align: center;
+  user-select: none;
+  font-family: Arial;
+}
